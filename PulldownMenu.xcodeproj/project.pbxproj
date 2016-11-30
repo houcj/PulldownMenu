@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01FCE92913EEDFBB44A8B5BB /* Pods_PulldownMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D990E0FDC580C51D638F964 /* Pods_PulldownMenu.framework */; };
 		480EDBC71DC2F2E0003B2ACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480EDBC61DC2F2E0003B2ACB /* main.m */; };
 		480EDBCA1DC2F2E0003B2ACB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 480EDBC91DC2F2E0003B2ACB /* AppDelegate.m */; };
 		480EDBCD1DC2F2E0003B2ACB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480EDBCC1DC2F2E0003B2ACB /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		480EDBD51DC2F2E0003B2ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480EDBD31DC2F2E0003B2ACB /* LaunchScreen.storyboard */; };
 		480EDBE01DC2F2E1003B2ACB /* PulldownMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480EDBDF1DC2F2E1003B2ACB /* PulldownMenuTests.m */; };
 		480EDBEB1DC2F2E1003B2ACB /* PulldownMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480EDBEA1DC2F2E1003B2ACB /* PulldownMenuUITests.m */; };
+		4829BCBB1DEE6F0400CD0C54 /* SecondaryListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4829BCBA1DEE6F0400CD0C54 /* SecondaryListView.m */; };
+		4833CB7B1DED5F8E005803C8 /* FirstStyleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4833CB7A1DED5F8E005803C8 /* FirstStyleCollectionViewCell.m */; };
+		4833CB7E1DED5FC2005803C8 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4833CB7D1DED5FC2005803C8 /* CellModel.m */; };
+		4833CB811DED65AE005803C8 /* SecondStyleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4833CB801DED65AE005803C8 /* SecondStyleCollectionViewCell.m */; };
+		4845C8B21DD99A95009A7436 /* CVEDropDownBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4845C8AE1DD99A95009A7436 /* CVEDropDownBtnView.m */; };
+		4845C8B31DD99A95009A7436 /* CVEDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4845C8B01DD99A95009A7436 /* CVEDropView.m */; };
+		4845C8B61DD9A571009A7436 /* DropDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4845C8B51DD9A571009A7436 /* DropDownViewController.m */; };
+		487DF7D21DE5C14800A6A8B8 /* dropModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 487DF7D11DE5C14800A6A8B8 /* dropModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,26 @@
 		480EDBE61DC2F2E1003B2ACB /* PulldownMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulldownMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		480EDBEA1DC2F2E1003B2ACB /* PulldownMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulldownMenuUITests.m; sourceTree = "<group>"; };
 		480EDBEC1DC2F2E1003B2ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480EDBFD1DC2F9D4003B2ACB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4829BCB91DEE6F0400CD0C54 /* SecondaryListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondaryListView.h; sourceTree = "<group>"; };
+		4829BCBA1DEE6F0400CD0C54 /* SecondaryListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondaryListView.m; sourceTree = "<group>"; };
+		4833CB791DED5F8E005803C8 /* FirstStyleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstStyleCollectionViewCell.h; sourceTree = "<group>"; };
+		4833CB7A1DED5F8E005803C8 /* FirstStyleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstStyleCollectionViewCell.m; sourceTree = "<group>"; };
+		4833CB7C1DED5FC2005803C8 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		4833CB7D1DED5FC2005803C8 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		4833CB7F1DED65AE005803C8 /* SecondStyleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondStyleCollectionViewCell.h; sourceTree = "<group>"; };
+		4833CB801DED65AE005803C8 /* SecondStyleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondStyleCollectionViewCell.m; sourceTree = "<group>"; };
+		4845C8AD1DD99A95009A7436 /* CVEDropDownBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVEDropDownBtnView.h; sourceTree = "<group>"; };
+		4845C8AE1DD99A95009A7436 /* CVEDropDownBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVEDropDownBtnView.m; sourceTree = "<group>"; };
+		4845C8AF1DD99A95009A7436 /* CVEDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVEDropView.h; sourceTree = "<group>"; };
+		4845C8B01DD99A95009A7436 /* CVEDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVEDropView.m; sourceTree = "<group>"; };
+		4845C8B41DD9A571009A7436 /* DropDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownViewController.h; sourceTree = "<group>"; };
+		4845C8B51DD9A571009A7436 /* DropDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownViewController.m; sourceTree = "<group>"; };
+		487DF7D01DE5C14800A6A8B8 /* dropModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dropModel.h; sourceTree = "<group>"; };
+		487DF7D11DE5C14800A6A8B8 /* dropModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dropModel.m; sourceTree = "<group>"; };
+		5D990E0FDC580C51D638F964 /* Pods_PulldownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PulldownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862F3B0FA96A9812CF1B174A /* Pods-PulldownMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PulldownMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-PulldownMenu/Pods-PulldownMenu.release.xcconfig"; sourceTree = "<group>"; };
+		E8CF4C04C3E1E7EFCE823410 /* Pods-PulldownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PulldownMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PulldownMenu/Pods-PulldownMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FCE92913EEDFBB44A8B5BB /* Pods_PulldownMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +111,13 @@
 		480EDBB91DC2F2DF003B2ACB = {
 			isa = PBXGroup;
 			children = (
+				4845C8A71DD99A95009A7436 /* DropDownView */,
 				480EDBC41DC2F2E0003B2ACB /* PulldownMenu */,
 				480EDBDE1DC2F2E1003B2ACB /* PulldownMenuTests */,
 				480EDBE91DC2F2E1003B2ACB /* PulldownMenuUITests */,
 				480EDBC31DC2F2E0003B2ACB /* Products */,
+				E6288A76AD37D91AB001B814 /* Pods */,
+				DF426B483BA979DB74C0A17F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +138,7 @@
 				480EDBC91DC2F2E0003B2ACB /* AppDelegate.m */,
 				480EDBCB1DC2F2E0003B2ACB /* ViewController.h */,
 				480EDBCC1DC2F2E0003B2ACB /* ViewController.m */,
+				480EDBFD1DC2F9D4003B2ACB /* PrefixHeader.pch */,
 				480EDBCE1DC2F2E0003B2ACB /* Main.storyboard */,
 				480EDBD11DC2F2E0003B2ACB /* Assets.xcassets */,
 				480EDBD31DC2F2E0003B2ACB /* LaunchScreen.storyboard */,
@@ -140,6 +174,70 @@
 			path = PulldownMenuUITests;
 			sourceTree = "<group>";
 		};
+		4845C8A71DD99A95009A7436 /* DropDownView */ = {
+			isa = PBXGroup;
+			children = (
+				4845C8A81DD99A95009A7436 /* controller */,
+				4845C8AB1DD99A95009A7436 /* model */,
+				4845C8AC1DD99A95009A7436 /* view */,
+			);
+			path = DropDownView;
+			sourceTree = "<group>";
+		};
+		4845C8A81DD99A95009A7436 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4845C8B41DD9A571009A7436 /* DropDownViewController.h */,
+				4845C8B51DD9A571009A7436 /* DropDownViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4845C8AB1DD99A95009A7436 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				487DF7D01DE5C14800A6A8B8 /* dropModel.h */,
+				487DF7D11DE5C14800A6A8B8 /* dropModel.m */,
+				4833CB7C1DED5FC2005803C8 /* CellModel.h */,
+				4833CB7D1DED5FC2005803C8 /* CellModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4845C8AC1DD99A95009A7436 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4845C8AD1DD99A95009A7436 /* CVEDropDownBtnView.h */,
+				4845C8AE1DD99A95009A7436 /* CVEDropDownBtnView.m */,
+				4845C8AF1DD99A95009A7436 /* CVEDropView.h */,
+				4845C8B01DD99A95009A7436 /* CVEDropView.m */,
+				4829BCB91DEE6F0400CD0C54 /* SecondaryListView.h */,
+				4829BCBA1DEE6F0400CD0C54 /* SecondaryListView.m */,
+				4833CB791DED5F8E005803C8 /* FirstStyleCollectionViewCell.h */,
+				4833CB7A1DED5F8E005803C8 /* FirstStyleCollectionViewCell.m */,
+				4833CB7F1DED65AE005803C8 /* SecondStyleCollectionViewCell.h */,
+				4833CB801DED65AE005803C8 /* SecondStyleCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DF426B483BA979DB74C0A17F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D990E0FDC580C51D638F964 /* Pods_PulldownMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6288A76AD37D91AB001B814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8CF4C04C3E1E7EFCE823410 /* Pods-PulldownMenu.debug.xcconfig */,
+				862F3B0FA96A9812CF1B174A /* Pods-PulldownMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 480EDBEF1DC2F2E1003B2ACB /* Build configuration list for PBXNativeTarget "PulldownMenu" */;
 			buildPhases = (
+				1C72BECBD560F13DFF391F71 /* [CP] Check Pods Manifest.lock */,
 				480EDBBE1DC2F2E0003B2ACB /* Sources */,
 				480EDBBF1DC2F2E0003B2ACB /* Frameworks */,
 				480EDBC01DC2F2E0003B2ACB /* Resources */,
+				878B1740D7A651FAA6EEFC1D /* [CP] Embed Pods Frameworks */,
+				6180D64A82F1881C2769E9DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +372,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C72BECBD560F13DFF391F71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6180D64A82F1881C2769E9DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PulldownMenu/Pods-PulldownMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		878B1740D7A651FAA6EEFC1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PulldownMenu/Pods-PulldownMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		480EDBBE1DC2F2E0003B2ACB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487DF7D21DE5C14800A6A8B8 /* dropModel.m in Sources */,
+				4833CB7B1DED5F8E005803C8 /* FirstStyleCollectionViewCell.m in Sources */,
+				4833CB7E1DED5FC2005803C8 /* CellModel.m in Sources */,
+				4845C8B31DD99A95009A7436 /* CVEDropView.m in Sources */,
+				4845C8B21DD99A95009A7436 /* CVEDropDownBtnView.m in Sources */,
 				480EDBCD1DC2F2E0003B2ACB /* ViewController.m in Sources */,
+				4829BCBB1DEE6F0400CD0C54 /* SecondaryListView.m in Sources */,
+				4833CB811DED65AE005803C8 /* SecondStyleCollectionViewCell.m in Sources */,
+				4845C8B61DD9A571009A7436 /* DropDownViewController.m in Sources */,
 				480EDBCA1DC2F2E0003B2ACB /* AppDelegate.m in Sources */,
 				480EDBC71DC2F2E0003B2ACB /* main.m in Sources */,
 			);
@@ -425,9 +582,11 @@
 		};
 		480EDBF01DC2F2E1003B2ACB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CF4C04C3E1E7EFCE823410 /* Pods-PulldownMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZ8U62TZZ9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PulldownMenu/PrefixHeader.pch";
 				INFOPLIST_FILE = PulldownMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cj.PulldownMenu;
@@ -437,9 +596,11 @@
 		};
 		480EDBF11DC2F2E1003B2ACB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862F3B0FA96A9812CF1B174A /* Pods-PulldownMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WZ8U62TZZ9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PulldownMenu/PrefixHeader.pch";
 				INFOPLIST_FILE = PulldownMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cj.PulldownMenu;
@@ -516,6 +677,7 @@
 				480EDBF11DC2F2E1003B2ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		480EDBF21DC2F2E1003B2ACB /* Build configuration list for PBXNativeTarget "PulldownMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +686,7 @@
 				480EDBF41DC2F2E1003B2ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		480EDBF51DC2F2E1003B2ACB /* Build configuration list for PBXNativeTarget "PulldownMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +695,7 @@
 				480EDBF71DC2F2E1003B2ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

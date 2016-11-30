@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "DropDownViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    DropDownViewController *vc = [[DropDownViewController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self.window setRootViewController:nav];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
